@@ -1,0 +1,17 @@
+{
+    "compilerOptions": {
+        "module": "esnext",
+        "noImplicitAny": true,
+        "preserveConstEnums": true,
+        "sourceMap": true,
+        "lib": ["ES2015.Promise", "DOM", "ES7"],
+        "types": ["node"]
+    },
+
+    "files": [
+        "app.ts",
+        "db.ts",
+        "start-db.ts",
+        "knexfile.ts"
+    ]
+}
