@@ -1,17 +1,27 @@
 {
     "compilerOptions": {
-        "module": "esnext",
+        "module": "commonjs",
         "noImplicitAny": true,
         "preserveConstEnums": true,
         "sourceMap": true,
         "lib": ["ES2015.Promise", "DOM", "ES7"],
-        "types": ["node"]
+        "types": ["node",
+                "knex",
+                "koa",
+                "koa-route",
+                "phantom"]
     },
 
     "files": [
         "app.ts",
+        "add.ts",
         "db.ts",
+        "db-tools.ts",
+        "interfaces.ts",
         "start-db.ts",
-        "knexfile.ts"
+        "knexfile.ts",
+        "tools.ts",
+        "page-loader.ts",
+        "screen-router.ts"
     ]
 }

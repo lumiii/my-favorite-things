@@ -1,10 +1,10 @@
-module.exports =  {
+export =  {
 	client: 'pg',
 	connection: {
 		user: 'postgres',
 		password: 'postgres',
 		host: 'localhost',
 		port: 5432,
-		database: 'my-favorite-things'		
+		database: 'my-favorite-things'
 	}
 };

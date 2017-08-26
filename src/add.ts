@@ -1,5 +1,5 @@
-function addEntry(table: string, url: string) {
-	
-};
+import knex = require('./db');
 
-module.exports = addEntry;
+export default function addEntry(table: string, url: string): void {
+
+};

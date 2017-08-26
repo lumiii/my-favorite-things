@@ -1,3 +1,4 @@
-const out_db = require('knex')(require('./knexfile'));
+import knex = require('knex');
 
-module.exports = out_db;
+const out_db = knex(require('./knexfile'));
+export = out_db;
